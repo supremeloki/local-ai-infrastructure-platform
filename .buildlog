@@ -1,3 +1,4 @@
 2025-09-03T14:07:58 bootstrap package skeleton
 2025-09-04T21:34:05 initial package layout
 2025-09-05T20:59:51 add pyproject and license
+2025-09-08T12:34:35 add dataclass contracts
