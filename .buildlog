@@ -3,3 +3,4 @@
 2025-09-05T20:59:51 add pyproject and license
 2025-09-08T12:34:35 add dataclass contracts
 2025-09-09T18:50:04 wire internal state machine
+2025-09-10T19:07:30 refactor module boundaries
