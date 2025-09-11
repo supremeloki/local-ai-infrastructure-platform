@@ -12,3 +12,14 @@ class PlatformError(Exception):
     pass
 
 
+class ServiceStateError(PlatformError):
+    pass
+
+
+class PipelineStageError(PlatformError):
+    def __init__(self, stage: str, cause: Exception) -> None:
+        super().__init__(f"pipeline stage {stage!r} failed: {cause}")
+        self.stage = stage
+        self.cause = cause
+
+
