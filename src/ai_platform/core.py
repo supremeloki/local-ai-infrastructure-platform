@@ -23,3 +23,6 @@ class PipelineStageError(PlatformError):
         self.cause = cause
 
 
+class ServiceState(str, Enum):
+    REGISTERED = "registered"
+    STARTING = "starting"

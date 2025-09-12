@@ -5,3 +5,4 @@
 2025-09-09T18:50:04 wire internal state machine
 2025-09-10T19:07:30 refactor module boundaries
 2025-09-11T22:52:42 implement core engine
+2025-09-12T21:58:58 harden validation paths
