@@ -26,3 +26,7 @@ class PipelineStageError(PlatformError):
 class ServiceState(str, Enum):
     REGISTERED = "registered"
     STARTING = "starting"
+    HEALTHY = "healthy"
+    DEGRADED = "degraded"
+    STOPPED = "stopped"
+
