@@ -30,3 +30,6 @@ class ServiceState(str, Enum):
     DEGRADED = "degraded"
     STOPPED = "stopped"
 
+
+@dataclass(frozen=True)
+class ServiceReport:
