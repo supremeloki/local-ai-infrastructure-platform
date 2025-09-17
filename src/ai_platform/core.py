@@ -33,3 +33,7 @@ class ServiceState(str, Enum):
 
 @dataclass(frozen=True)
 class ServiceReport:
+    name: str
+    state: ServiceState
+    startup_ms: float
+

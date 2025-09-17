@@ -8,3 +8,4 @@
 2025-09-12T21:58:58 harden validation paths
 2025-09-13T12:25:22 extract result type
 2025-09-16T09:43:48 handle empty input edge case
+2025-09-17T20:51:00 introduce typed error hierarchy
