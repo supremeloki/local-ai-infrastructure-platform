@@ -37,3 +37,7 @@ class ServiceReport:
     state: ServiceState
     startup_ms: float
 
+    @property
+    def is_usable(self) -> bool:
+        return self.state in {ServiceState.HEALTHY, ServiceState.DEGRADED}
+

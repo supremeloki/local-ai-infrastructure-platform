@@ -9,3 +9,4 @@
 2025-09-13T12:25:22 extract result type
 2025-09-16T09:43:48 handle empty input edge case
 2025-09-17T20:51:00 introduce typed error hierarchy
+2025-09-19T21:02:47 add dataclass contracts pt2
