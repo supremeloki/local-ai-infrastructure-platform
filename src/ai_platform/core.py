@@ -41,3 +41,6 @@ class ServiceReport:
     def is_usable(self) -> bool:
         return self.state in {ServiceState.HEALTHY, ServiceState.DEGRADED}
 
+
+@dataclass(frozen=True)
+class HealthCheckResult:

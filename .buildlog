@@ -10,3 +10,4 @@
 2025-09-16T09:43:48 handle empty input edge case
 2025-09-17T20:51:00 introduce typed error hierarchy
 2025-09-19T21:02:47 add dataclass contracts pt2
+2025-09-21T10:23:26 wire internal state machine pt2
