@@ -44,3 +44,7 @@ class ServiceReport:
 
 @dataclass(frozen=True)
 class HealthCheckResult:
+    service: str
+    healthy: bool
+    detail: str
+

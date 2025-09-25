@@ -11,3 +11,4 @@
 2025-09-17T20:51:00 introduce typed error hierarchy
 2025-09-19T21:02:47 add dataclass contracts pt2
 2025-09-21T10:23:26 wire internal state machine pt2
+2025-09-25T18:07:03 refactor module boundaries pt2
