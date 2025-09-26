@@ -48,3 +48,6 @@ class HealthCheckResult:
     healthy: bool
     detail: str
 
+
+class ManagedService:
+    name: str = "service"
