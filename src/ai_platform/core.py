@@ -51,3 +51,7 @@ class HealthCheckResult:
 
 class ManagedService:
     name: str = "service"
+
+    def start(self) -> None: ...
+    def stop(self) -> None: ...
+    def health(self) -> tuple[bool, str]:
