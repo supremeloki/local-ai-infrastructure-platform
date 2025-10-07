@@ -58,3 +58,7 @@ class ManagedService:
         return True, "ok"
 
 
+@dataclass(frozen=True)
+class StoredBlob:
+    key: str
+    payload: str
