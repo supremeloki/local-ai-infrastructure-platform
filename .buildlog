@@ -22,3 +22,4 @@
 2025-10-19T18:39:02 wire internal state machine pt2
 2025-10-21T11:33:34 implement cache layer
 2025-10-22T09:12:28 wire async handlers
+2025-10-23T23:46:58 extend public api surface
