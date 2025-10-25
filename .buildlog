@@ -24,3 +24,4 @@
 2025-10-22T09:12:28 wire async handlers
 2025-10-23T23:46:58 extend public api surface
 2025-10-24T20:45:46 add cli entrypoint
+2025-10-25T13:35:23 support multiple sources
