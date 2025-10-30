@@ -26,3 +26,4 @@
 2025-10-24T20:45:46 add cli entrypoint
 2025-10-25T13:35:23 support multiple sources
 2025-10-28T10:55:28 support config overrides
+2025-10-30T23:40:46 add streaming path
