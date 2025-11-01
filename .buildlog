@@ -28,3 +28,4 @@
 2025-10-28T10:55:28 support config overrides
 2025-10-30T23:40:46 add streaming path
 2025-10-31T22:29:57 expose metrics hooks
+2025-11-01T10:15:24 support multiple sources pt2
