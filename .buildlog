@@ -39,3 +39,4 @@
 2025-11-14T21:58:36 add cli entrypoint pt2
 2025-11-15T20:20:25 support config overrides pt2
 2025-11-19T18:49:30 expose metrics hooks pt2
+2025-11-20T21:00:58 fix off-by-one in chunker
