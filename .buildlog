@@ -41,3 +41,4 @@
 2025-11-19T18:49:30 expose metrics hooks pt2
 2025-11-20T21:00:58 fix off-by-one in chunker
 2025-11-21T23:55:28 test streaming backpressure
+2025-11-23T09:28:57 test grouping edge cases
