@@ -43,3 +43,4 @@
 2025-11-21T23:55:28 test streaming backpressure
 2025-11-23T09:28:57 test grouping edge cases
 2025-11-26T17:22:29 guard against missing header row
+2025-11-30T22:52:17 expand unit coverage
