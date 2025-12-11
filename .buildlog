@@ -50,3 +50,4 @@
 2025-12-05T21:22:40 guard against missing header row pt2
 2025-12-06T17:54:31 fix flaky ordering in tests pt2
 2025-12-09T20:36:58 regression test for parser pt2
+2025-12-11T19:42:15 guard against missing header row pt2
