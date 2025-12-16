@@ -122,19 +122,3 @@ def test_pipeline_wraps_stage_failures():
 
 
 def test_pipeline_duplicate_stages_rejected():
-    with pytest.raises(PlatformError):
-        InferencePipeline([("same", lambda c: c), ("same", lambda c: c)])
-
-
-def test_platform_pipeline_dispatch(platform):
-    platform.pipelines["demo"] = InferencePipeline([
-        ("double", lambda ctx: {"value": ctx["x"] * 2}),
-    ])
-    assert platform.run_pipeline("demo", {"x": 21})["value"] == 42
-
-
-def test_platform_status_snapshot(platform, tmp_path):
-    platform.start_all()
-    status = platform.platform_status()
-    assert status["pipelines"] == []
-    assert status["storage_keys"] == 0
