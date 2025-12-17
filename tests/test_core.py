@@ -122,3 +122,5 @@ def test_pipeline_wraps_stage_failures():
 
 
 def test_pipeline_duplicate_stages_rejected():
+    with pytest.raises(PlatformError):
+        InferencePipeline([("same", lambda c: c), ("same", lambda c: c)])
