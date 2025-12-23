@@ -129,3 +129,5 @@ def test_pipeline_duplicate_stages_rejected():
 def test_platform_pipeline_dispatch(platform):
     platform.pipelines["demo"] = InferencePipeline([
         ("double", lambda ctx: {"value": ctx["x"] * 2}),
+    ])
+    assert platform.run_pipeline("demo", {"x": 21})["value"] == 42
