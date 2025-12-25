@@ -133,3 +133,5 @@ def test_platform_pipeline_dispatch(platform):
     assert platform.run_pipeline("demo", {"x": 21})["value"] == 42
 
 
+def test_platform_status_snapshot(platform, tmp_path):
+    platform.start_all()
