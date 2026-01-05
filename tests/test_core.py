@@ -137,3 +137,4 @@ def test_platform_status_snapshot(platform, tmp_path):
     platform.start_all()
     status = platform.platform_status()
     assert status["pipelines"] == []
+    assert status["storage_keys"] == 0
